@@ -36,6 +36,9 @@ further_reading:
 - link: "https://www.datadoghq.com/blog/service-catalog-schema-v3/"
   tag: "Blog"
   text: "Improve developer experience and collaboration with Service Catalog schema version 3.0"
+- link: "https://www.datadoghq.com/blog/memory-leak-workflow/"
+  tag: "Blog"
+  text: "Investigate memory leaks and OOMs with Datadog's guided workflow"
 algolia:
   tags: ['service catalog']
 ---
@@ -45,6 +48,9 @@ algolia:
 ## Overview
 
 Datadog [Service Catalog][1] provides a consolidated view of your services, combining ownership metadata, performance insights, security analysis, cost allocation, and much more. It makes it easy for organizations to achieve end-to-end service ownership at scale, get real-time performance insights, detect and address reliability and security risks, and manage application dependencies all in one place. 
+
+{{< callout url="https://www.datadoghq.com/product-preview/internal-developer-portal/" d_target="#signupModal" btn_hidden="false" header="Opt in to the preview for our Internal Developer Portal!" >}}
+{{< /callout >}}
 
 ### Use cases
 
