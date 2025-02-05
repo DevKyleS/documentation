@@ -339,7 +339,6 @@ docker run --cgroupns host \
 -v /etc/yum/vars:/host/etc/yum/vars:ro \
 -v /etc/dnf/vars:/host/etc/dnf/vars:ro \
 -v /etc/rhsm:/host/etc/rhsm:ro \
--e DD_SYSTEM_PROBE_SERVICE_MONITORING_ENABLED=true \
 -e HOST_ROOT=/host/root \
 --security-opt apparmor:unconfined \
 --cap-add=SYS_ADMIN \
@@ -763,7 +762,7 @@ The following systems or services require additional configuration:
 
 {{< collapse-content title="Non-containerized services on Linux" level="h4" >}}
 <div class="alert alert-info">
-Universal Service Monitoring is available in <strong>beta</strong> to monitor services running bare-metal on Linux virtual machines.
+Universal Service Monitoring is available to monitor services running bare-metal on Linux virtual machines.
 </div>
 
 Requires Agent version 7.42 or greater.
